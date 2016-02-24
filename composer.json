@@ -1,0 +1,28 @@
+{
+  "name": "requestlab/estat-bundle",
+  "description": "Mediametrie - Estat authentification in server-to-server interactions with Estat REST API",
+  "keywords": [ "estat", "mediametrie", "rest", "server", "api" ],
+  "type": "symfony-bundle",
+  "require": {
+    "symfony/framework-bundle":  "2.*",
+    "widop/http-adapter-bundle": "1.*",
+    "requestlab/estat": "^0.2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "4.5.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Yann Lecommandoux",
+      "email": "yann@requestlab.fr"
+    }
+  ],
+  "autoload": {
+    "psr-0": { "RequestLab\\EstatBundle": "" }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "target-dir": "RequestLab/EstatBundle"
+}

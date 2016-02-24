@@ -1,0 +1,4 @@
+request_lab_estat:
+    login: "Login"
+    password: "Password"
+    http_adapter: "widop_http_adapter.curl"
