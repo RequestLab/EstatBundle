@@ -1,0 +1,15 @@
+parameters:
+    request_lab_estat.class: RequestLab\Estat\Service
+    request_lab_estat.query.class: RequestLab\Estat\Query
+    request_lab_estat.client.class: RequestLab\Estat\Client
+
+services:
+    request_lab_estat:
+        class: %request_lab_estat.class%
+        arguments: ["@request_lab_estat.client"]
+
+    request_lab_estat.client:
+        class: %request_lab_estat.client.class%
+
+    request_lab_estat.query:
+        class: %request_lab_estat.query.class%
